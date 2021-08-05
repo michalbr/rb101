@@ -1,0 +1,17 @@
+welcome: 'Welcome to Car Loan Calculator!'
+enter_loan_amount: "Please enter loan amount in $:"
+loan_amount_incorrect: "Loan amount seems to be incorrect. Please type it again:"
+enter_apr: |
+ Please enter Annual Percentage Rate (APR) in %.
+    Example: if your APR is 5.5% then type '5.5':
+apr_incorrect: |
+ Annual Percentage Rate seems to be incorrect.
+   Please type it again:
+enter_loan_duration: "Please enter loan duration in years:"
+loan_duration_incorrect: "Loan duration seems to be incorrect. Please type it again:"
+result: |
+ Your monthly payment is: $%{monthly_payment}
+    Total of %{loan_duration_in_months} payments is: $%{total_payment}
+    Total Interest is: $%{total_interest}
+another_calc: "Would you like to run another calculation? (Y to calculate again)"
+exit: "Thank you for using Car Loan Calculator! Bye!"
