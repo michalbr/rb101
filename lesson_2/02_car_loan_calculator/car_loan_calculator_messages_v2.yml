@@ -1,0 +1,31 @@
+welcome: 'Welcome to Car Loan Calculator!'
+enter_loan_amount: |
+ Please enter loan amount in $:
+    Example: for 1,000.50$ type '1000.50'
+loan_amount_incorrect: |
+ Loan amount seems to be incorrect. It must be a positive number.
+    Also a comma (,) and a space are not allowed as separators.
+    Please type loan amount again:
+enter_apr: |
+ Please enter Annual Percentage Rate (APR) in %.
+    Example: if your APR is 5.5% then type '5.5':
+apr_incorrect: |
+ APR seems to be incorrect. It can't be a negative number.
+    Also don't use a comma (,) as a separator.
+    Please type APR again:
+enter_loan_duration: |
+ Please enter loan duration in years:
+    Example: for duration of 5 years type '5':
+loan_duration_incorrect: |
+ Loan duration seems to be incorrect. It must be a positive whole number -
+    without decimal places, no comma (,) and no period (.). 
+    Please type loan duration in years again:
+result: |
+ Your monthly payment is: $%{monthly_payment}
+    Total of %{loan_duration_in_months} payments is: $%{total_payment}
+    Total Interest is: $%{total_interest}
+another_calc: "Would you like to run another calculation? (Y/N)"
+another_calc_invalid: |
+ If you want to run another calculation type: 'Y' or 'y'.
+    If you want to exit type: 'N' or 'n'.
+exit: "Thank you for using Car Loan Calculator! Bye!"
