@@ -218,9 +218,7 @@ def game_over?(player_scr, computer_scr)
 end
 
 def display_game_winner(player_scr, computer_scr)
-  if game_over?(player_scr, computer_scr)
     prompt "#{detect_game_winner(player_scr, computer_scr)} won the game!"
-  end
 end
 
 def start_next_round
